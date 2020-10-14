@@ -1,0 +1,5 @@
+https://www.mssqltips.com/sqlservertip/5740/getting-started-with-github-for-sql-server-developers/
+
+Visual studio: в проекте: Средства > Подключение к Microsoft SQL Server
+
+Ввести в доступные поля по очереди: SQL001, LearnDB

@@ -1,0 +1,20 @@
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\bin\Debug\Project 2.exe.config
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\bin\Debug\Project 2.exe
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\bin\Debug\Project 2.pdb
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project 2.csprojAssemblyReference.cache
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form1.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form2.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form3.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form4.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form5.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form6.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Properties.Resources.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project 2.csproj.GenerateResource.cache
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project 2.csproj.CoreCompileInputs.cache
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project 2.exe
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project 2.pdb
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form10.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form11.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form7.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form8.resources
+Y:\Student\18ИПП\ОАиП\2 подгр\Проект СПС\Backup\Project 2\Project 2\obj\Debug\Project_2.Form9.resources

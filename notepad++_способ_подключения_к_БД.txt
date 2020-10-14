@@ -1,0 +1,36 @@
+﻿Visual studio: в проекте: Средства > Подключение к Microsoft SQL Server
+
+Ввести в доступные поля по очереди: SQL001, LearnDB
+
+Изменить под себя следующий код, заменив сам запрос (sb.Append), а также сохранение необходимых значений при необходимости (login,password,role)
+
+        public int check_user(List<string> input)
+        {
+            string connection_string = "Data Source=SQL001;Initial Catalog=LearnDB;Integrated Security=True";
+
+            using (SqlConnection connection = new SqlConnection(connection_string))
+            {
+                StringBuilder sb = new StringBuilder();
+                sb.Append("SELECT *"); // Настроить выборку под себя
+                sb.Append("FROM [dbo].[projectorg_users];"); // Указать свою таблицу
+                String sql = sb.ToString();
+                string login, password, role = null;
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    connection.Open();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            login = reader["user_login"].ToString();  //Сохранить с строку login информацию из столбца user_login в читаемой таблице
+                            password = reader["user_password"].ToString();
+                            role = reader["user_role"].ToString();
+                            MessageBox.Show(login + password + role); // Вывод всех строк (для проверки)
+                        }
+                        connection.Close();
+                        if (role != null) return role; //Условие, если используется в public int, в моем коде подтверждает то, что пользователь действительно найден, возвращая 1.
+                        else return 0;
+                    }
+                }
+            }
+        }

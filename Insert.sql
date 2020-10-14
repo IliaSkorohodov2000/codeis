@@ -1,0 +1,10 @@
+Insert into dbo.projectorg_ownership values (1, 'Employer'), (2, 'Department'), (3, 'Customer'), (4, 'Project'), (5, 'Contract');
+Insert into dbo.projectorg_statuses values (1, 'Non_active', 1), (2, 'Active', 1), (3, 'Busy', 2), (4, 'Active', 2), (5, 'Regular', 3), (6, 'Frequent', 3), (7, 'Closed', 4), (8, 'In progress', 4), (9, 'Finished', 4), (10, 'Not signed', 5), (11, 'Signed', 5);
+Insert into dbo.projectorg_roles values (1, 'Администратор'), (2, 'Руководитель'), (3, 'Работник');
+Insert into dbo.projectorg_departments values (1, 'Отдел 1', '88000000000', 1, 3);
+Insert into dbo.projectorg_employers values (1, 'Иван', 'Иванович', 'Иванов', 'г.Москва', '88000000000', '7777', '7777', '02/01/99', '02/01/16', '02/01/20', 2, 1), (2, 'Иван2', 'Иванович2', 'Иванов2', 'г.Москва', '88000000000', '7775', '7775', '02/01/99', '02/01/16', '02/01/20', 2, 1);
+Insert into dbo.projectorg_users values (1, 'ivan', '01', 2, 1), (2, 'ivan2', '02', 3, 2);
+Insert into dbo.projectorg_customers values (1, 'Иван', 'Иванович', 'Иванов', 'Тест', '7776', '88000000000', '02/01/99', '02/01/16', '02/01/20', 6);
+Insert into dbo.projectorg_contracts values (1, 1, '02/01/16', '01/01/16', '03/01/16', 11);
+Insert into dbo.projectorg_projects values (1, 'Первый проект', 1, '02/01/99', '10/01/16', '03/01/20', 1000, 7);
+Insert into dbo.projectorg_workonproject values (1, 1, 1, 1);
